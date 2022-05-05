@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+$color-primary: red;
+$color-tertiary: green;
+$color-third:blue;
+
+
+
+
+
+
+
+.exercise {
+    border: 1px solid $color-primary;
+    width: 80vw;
+    height: 30vh;
+    justify-content: center;
+    margin: 10%;
+    
+    
+
+    .exercise-title {
+        color: $color-tertiary;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+        text-decoration: underline blue ;
+    }
+}
+
+section{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin: 5%;
+
+    p{
+        border: 1px solid $color-tertiary;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 18px;
+        padding: 4%;
+        color: $color-primary;
+        height: 100%;
+        
+        
+    }
+    .p1{
+        color: $color-third;
+    }
+   
+    
+
+}
+
